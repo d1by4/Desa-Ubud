@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)), url("Beranda.jpg");
+    width: 100vh;
+    height: 100vh;
+    margin: 0.1vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ul-head>li{
+    font-size: larger;  
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;      
+}
+
+.ul-head>li>a{
+    color: white;
+    font-size: 30px;
+    font: bold;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+.ul-head>li>a:hover{
+    background-color: #aeaeae;
+    transition: ease-in-out;
+    border-radius: 5px;
+}
+
+.nav{
+    background-color:#aeaeae;
+}
+
+.div-chest{
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.div-chest>p{
+    color: white;
+    font-size: 25px;
+    font: bold;
+    text-align: center;
+}
